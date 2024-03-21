@@ -10,7 +10,7 @@ export default function Home(props: any) {
 
   return (
     <>
-      <div>
+      <div style={{display:'flex', flexWrap:'wrap', gap:'0.5rem'}}>
         {guilds.map((x: Guild) => {
           return (
             <div key={x.id}>
