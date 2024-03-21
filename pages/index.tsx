@@ -1,6 +1,7 @@
 import { get_channels } from "@/services/channel";
 import { get_guilds} from "@/services/guild";
 import { Guild } from "@/types/guild";
+import Guild
 
 
 export default function Home(props:any) {

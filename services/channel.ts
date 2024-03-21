@@ -13,7 +13,6 @@ export async function get_channels(gid:string) : Promise<Channel[]>
     let channel:Channel = 
         {
             id:x.id,
-            guildId:gid,
             name:x.name,
             topic:topic
         }

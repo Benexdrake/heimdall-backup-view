@@ -1,0 +1,18 @@
+.card {
+    padding: 10px;
+    background-color: aqua;
+    max-width: 130px;
+    border-radius: 5%;
+}
+
+.card_image {
+    border-radius: 10%;
+}
+
+.card_header {
+
+}
+
+.card_description {
+
+}
