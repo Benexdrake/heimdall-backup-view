@@ -7,9 +7,9 @@ export default function GuildCard(props: any) {
     <div className={styles.card}>
       <img className={styles.card_image} src={'https://cdn.discordapp.com/icons/'+guild.id+'/'+guild.icon} alt="" />
         <h3>{guild.name}</h3>
-        <table>
-            {guild.channels.map((x:any) => <tr>{x.name}</tr>)}
-        </table>
+        <ul>
+            {guild.channels.map((x:any) => <li>{x.name}</li>)}
+        </ul>
     </div>
   );
 }
