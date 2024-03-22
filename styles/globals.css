@@ -8,3 +8,9 @@
 body {
     background-color: var(--color1);
 }
+
+.main {
+    margin: auto;
+    padding-top: 0.5rem;
+    width: 1200px;
+}

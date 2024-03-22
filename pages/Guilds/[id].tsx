@@ -11,7 +11,7 @@ export default function Guild(props: any) {
       <div style={{display:'flex', flexWrap:'wrap', gap:'0.5rem'}}>
         {guild.channels.map((x:Channel) => {
             return (
-                <ChannelCard channel={x}/>
+                <></>
             )
         })}
       </div>

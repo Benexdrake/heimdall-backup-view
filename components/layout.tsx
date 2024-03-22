@@ -1,4 +1,4 @@
-import Navbar from "./navbar";
+import Navbar from "./navbar/navbar";
 
 export default function Layout(props: any) {
 
@@ -6,8 +6,8 @@ export default function Layout(props: any) {
 
   return (
     <div>
-      <div className="main">
         <Navbar />
+      <div className="main">
         <main>{children}</main>
       </div>
     </div>
